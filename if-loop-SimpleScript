@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+a=4
+b=15
+
+if [ $a > $b ]; then           # Proper spacing and use of -gt for comparison
+    echo "$a is greater than $b"  # Correct echo syntax
+else
+    echo "$b is greater than $a"  # Correct echo syntax
+fi                               # End of the if statement
